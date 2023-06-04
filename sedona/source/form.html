@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Седона</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <a href="#" class="main-header__logo">
+      <img src="#" alt="">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle"></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="">Главная</a></li>
+          <li class="site-list__item"><a href="">Фото и видео</a></li>
+          <li class="site-list__item"><a href="">Форма отзыва</a></li>
+          <li class="site-list__item"><a href="">HTML ACADEMY</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="promo">
+      <div class="promo__wrapper">
+        <h1 class="visually-hidden"><img src="#" alt=""></h1>
+        <p class="promo__slogan"><img src="#" alt=""></p>
+      </div>
+    </section>
+    <section class="page-intro">
+      <div class="page-intro__title-group">
+        <h1 class="page-intro__title">Оставьте свой отзыв</h1>
+        <p class="page-intro__description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </div>
+    </section>
+    <form action="" class="feedback-form">
+      <fieldset class="feedback-form__name">
+        <legend class="feedback-form__legend">Представьтесь:</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item"><label for="" class="feedback-form__label">имя<input type="text" class="feedback-form__input" placeholder="петр" required></label></li>
+          <li class="feedback-form__item"><label for="" class="feedback-form__label">фамилия<input type="text" class="feedback-form__input" placeholder="пустота" required></label></li>
+          <li class="feedback-form__item"><label for="" class="feedback-form__label">отчество<input type="text" class="feedback-form__input" placeholder="викторович"></label></li>
+        </ul>
+      </fieldset>
+      <fieldset class="feedback-form__contacts">
+        <legend class="feedback-form__legend">Контактная информация:</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item"><label for="contact-phone" class="feedback-form__label"><input type="phone" class="feedback-form__input" id="contact-phone" placeholder="Введите телефон"></label></li>
+          <li class="feedback-form__item"><label for="contact-email" class="feedback-form__label"><input type="email" class="feedback-form__input" id="contact-email" placeholder="Введите e-mail"></label></li>
+        </ul>
+      </fieldset>
+      <fieldset class="feedback-form__impression">
+        <legend class="feedback-form__legend">Ваше Общее впечатление:</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item"><label for="impression-positive" class="feedback-form__label">Скорее положительное<input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="impression-positive"></label></li>
+          <li class="feedback-form__item"><label for="impression-negative" class="feedback-form__label">Скорее отрицательное<input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="impression-negative"></label></li>
+          <li class="feedback-form__item"><label for="no-opinion" class="feedback-form__label">Затрудняюсь ответить<input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="no-opinion"></label></li>
+        </ul>
+      </fieldset>
+      <fieldset class="feedback-form__visited">
+        <legend class="feedback-form__legend">посещенные достопримечательности:</legend>
+        <ul class="feedback-form__list">
+          <li class="feedback-form__item">
+            <label for="" class="feedback-form__label">
+              Мост Дьявола
+              <input type="checkbox" class="feedback-form__input" checked>
+            </label>
+          </li>
+          <li class="feedback-form__item">
+            <label for="" class="feedback-form__label">
+              Гора-Колокол
+              <input type="checkbox" class="feedback-form__input" checked>
+            </label>
+          </li>
+          <li class="feedback-form__item">
+            <label for="" class="feedback-form__label">
+              Слайд-парк
+              <input type="checkbox" class="feedback-form__input" checked>
+            </label>
+          </li>
+          <li class="feedback-form__item">
+            <label for="" class="feedback-form__label">
+              Красные скалы
+              <input type="checkbox" class="feedback-form__input">
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="feedback-form__message">
+        <legend class="feedback-form__legend">Опишите свои эмоции:</legend>
+        <textarea name="feddback-message" id="feddback-message" cols="30" rows="10" class="feedback-form__textarea" placeholder="Опишите подробно все свои восторги ">
+          </textarea>
+      </fieldset>
+      <div class="feedback-form__button-wrapper">
+        <button class="feedback-form__button" type="submit" value="отправить отзыв">отправить отзыв</button>
+        <span class="feedback-form__footnote">* — обязательные поля</span>
+      </div>
+    </form>
+  </main>
+  <footer class="page-footer">
+    <h2 class="page-footer__header">Наши контакты</h2>
+    <a href="" class="page-footer__hashtag"></a>
+    <div class="page-footer__social">
+      <div class="social-links">
+        <a href="" class="social-links__item"></a>
+        <a href="" class="social-links__item"></a>
+        <a href="" class="social-links__item"></a>
+      </div>
+    </div>
+    <a href="" class="page-footer__copyright">
+      <span class="page-footer__text"></span>
+      <img src="#" alt="" class="page-footer__img">
+    </a>
+  </footer>
+</body>
