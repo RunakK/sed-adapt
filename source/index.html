@@ -11,20 +11,20 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a href="#" class="main-header__logo">
-      <img src="#" alt="">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle"></button>
-      <div class="main-nav__wrapper">
+    <div class="page-wrapper">
+      <a href="#" class="main-header__logo">
+        <img src="#" alt="">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle"></button>
         <ul class="main-nav__list site-list">
-          <li class="site-list__item"><a href="">Главная</a></li>
-          <li class="site-list__item"><a href="">Фото и видео</a></li>
-          <li class="site-list__item"><a href="">Форма отзыва</a></li>
-          <li class="site-list__item"><a href="">HTML ACADEMY</a></li>
+          <li class="site-list__item"><a class="site-list__link site-list__link--selected" href="#">Главная</a></li>
+          <li class="site-list__item"><a class="site-list__link" href="#">Фото и видео</a></li>
+          <li class="site-list__item"><a class="site-list__link" href="#">Форма отзыва</a></li>
+          <li class="site-list__item"><a class="site-list__link" href="#">HTML ACADEMY</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
   <main class="page-main">
     <section class="promo">
@@ -45,29 +45,54 @@
       <ul class="advantage__list advantage-list">
         <li class="advantage-list__item advantage-list__item--big">
           <div class="advantage-list__card">
-            h3.advantage-list__item{настоящий городок}>span.
+            <h3 class="advantage-list__item">настоящий городок</h3>
+            <span class="advantage-list__number">— №1 —</span>
+            <span class="advantage-list__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</span>
           </div>
           <img src="#" alt="Город" class="advantage-list__city">
         </li>
         <li class="advantage-list__item advantage-list__item--icon">
-          <h3 class="advantage-list__item-title"></h3>
-          <p class="advantage-list__item-description"></p>
+          <h3 class="advantage-list__item-title">Жильё</h3>
+          <p class="advantage-list__item-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </li>
         <li class="advantage-list__item advantage-list__item--icon">
-          <h3 class="advantage-list__item-title"></h3>
-          <p class="advantage-list__item-description"></p>
+          <h3 class="advantage-list__item-title">еда</h3>
+          <p class="advantage-list__item-description">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР,Вы НЕ разочаруетесь!</p>
         </li>
         <li class="advantage-list__item advantage-list__item--icon">
-          <h3 class="advantage-list__item-title"></h3>
-          <p class="advantage-list__item-description"></p>
+          <h3 class="advantage-list__item-title">сувениры</h3>
+          <p class="advantage-list__item-description">Не только китайского,
+            но и местного производства!</p>
         </li>
         <li class="advantage-list__item advantage-list__item--big">
-          <div class="advantage-list__card"></div>
+          <div class="advantage-list__card">
+            <h3 class="advantage-list__item">ТАМ ЕСТЬ Мост дьявола</h3>
+            <span class="advantage-list__number">— №2 —</span>
+            <span class="advantage-list__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</span>
+          </div>
           <img src="#" alt="мост" class="advantage-list__bridge">
         </li>
-        <li class="advantage-list__item advantage-list__item--normal"></li>
-        <li class="advantage-list__item advantage-list__item--normal"></li>
-        <li class="advantage-list__item advantage-list__item--normal"></li>
+        <li class="advantage-list__item advantage-list__item--normal">
+          <div class="advantage-list__card">
+            <h3 class="advantage-list__item">Небольшая площадь</h3>
+            <span class="advantage-list__number">— №3 —</span>
+            <span class="advantage-list__description">ВСЕ интересные места находятся очень близко</span>
+          </div>
+        </li>
+        <li class="advantage-list__item advantage-list__item--normal">
+          <div class="advantage-list__card">
+            <h3 class="advantage-list__item">красивая дорога</h3>
+            <span class="advantage-list__number">— №4 —</span>
+            <span class="advantage-list__description">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</span>
+          </div>
+        </li>
+        <li class="advantage-list__item advantage-list__item--normal">
+          <div class="advantage-list__card">
+            <h3 class="advantage-list__item">мало туристов</h3>
+            <span class="advantage-list__number">— №5 —</span>
+            <span class="advantage-list__description">Большинство едет в гранд каньон и толпится та</span>
+          </div>
+        </li>
       </ul>
     </section>
     <section class="hotel-search">
