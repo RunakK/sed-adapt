@@ -76,17 +76,17 @@
             <ul class="feedback-form__list feedback-form__list--check">
               <li class="feedback-form__item">
                 <label class="feedback-form__label feedback-form__input--check" for="impression-positive">Скорее положительное
-                  <input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="impression-positive">
+                  <input type="radio" class="feedback-form__input visually-hidden" name="feedback-form__opinion" id="impression-positive">
                 </label>
               </li>
               <li class="feedback-form__item">
                 <label for="impression-negative" class="feedback-form__label feedback-form__input--check">Скорее отрицательное
-                  <input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="impression-negative">
+                  <input type="radio" class="feedback-form__input visually-hidden" name="feedback-form__opinion" id="impression-negative">
                 </label>
               </li>
               <li class="feedback-form__item">
                 <label for="no-opinion" class="feedback-form__label feedback-form__input--check">Затрудняюсь ответить
-                  <input type="radio" class="feedback-form__input" name="feedback-form__opinion" id="no-opinion">
+                  <input type="radio" class="feedback-form__input visually-hidden" name="feedback-form__opinion" id="no-opinion">
                 </label>
               </li>
             </ul>
@@ -97,35 +97,34 @@
               <li class="feedback-form__item">
                 <label for="" class="feedback-form__label feedback-form__input--check">
                   Мост Дьявола
-                  <input type="checkbox" class="feedback-form__input" checked>
+                  <input type="checkbox" class="feedback-form__input visually-hidden" checked>
                 </label>
               </li>
               <li class="feedback-form__item">
                 <label for="" class="feedback-form__label feedback-form__input--check">
                   Гора-Колокол
-                  <input type="checkbox" class="feedback-form__input" checked>
+                  <input type="checkbox" class="feedback-form__input visually-hidden" checked>
                 </label>
               </li>
               <li class="feedback-form__item">
                 <label for="" class="feedback-form__label feedback-form__input--check">
                   Слайд-парк
-                  <input type="checkbox" class="feedback-form__input" checked>
+                  <input type="checkbox" class="feedback-form__input visually-hidden" checked>
                 </label>
               </li>
               <li class="feedback-form__item">
-                <label for="" class="feedback-form__label feedback-form__list--check">
+                <label for="" class="feedback-form__label feedback-form__input--check">
                   Красные скалы
                 </label>
-                <input type="checkbox" class="feedback-form__input">
+                <input type="checkbox" class="feedback-form__input visually-hidden">
               </li>
             </ul>
           </fieldset>
-          <fieldset class="feedback-form__fieldset feedback-form__message">
+          <fieldset class="feedback-form__fieldset feedback-form__wide">
             <legend class="feedback-form__legend">Опишите свои эмоции:</legend>
-            <textarea class="feedback-form__textarea" name="feddback-message" id="feddback-message" cols="30" rows="10" placeholder="Опишите подробно все свои восторги ">
-          </textarea>
+            <textarea class="feedback-form__textarea" name="feddback-message" id="feddback-message" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
           </fieldset>
-          <div class="feedback-form__button-wrapper">
+          <div class="feedback-form__button-wrapper feedback-form__wide">
             <button class="feedback-form__button" type="submit" value="отправить отзыв">отправить отзыв</button>
             <span class="feedback-form__footnote">* — обязательные поля</span>
           </div>
