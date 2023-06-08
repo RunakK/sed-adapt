@@ -1,0 +1,18 @@
+.photo-list {
+  padding: 20px;
+  margin: 0;
+  display: grid;
+  list-style: none;
+
+  @media (min-width: @tablet-width) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: @desktop-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.photo-list__item-caption {
+  display: grid;
+}
