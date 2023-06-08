@@ -1,0 +1,41 @@
+.page-intro {
+  background-color: @backgroundMain;
+  display: flex;
+  justify-content: center;
+  padding: 16px 18px;
+}
+
+.page-intro__title-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (min-width: @tablet-width) {
+    width: 520px;
+  }
+
+  @media (min-width: @desktop-width) {
+    width: 484px;
+  }
+}
+
+.page-intro__title-group--catalog {
+  @media (min-width: @tablet-width) {
+    width: 458px;
+  }
+}
+
+.page-intro__title {
+  .fontTitleSmall;
+  text-align: center;
+
+  @media (min-width: @tablet-width) {
+    //.fontTitleMedium;
+  }
+}
+
+.page-intro__description {
+  .fontDescriptionSmall;
+  color: @thirdColor;
+  text-align: center;
+}
