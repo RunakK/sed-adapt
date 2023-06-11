@@ -1,3 +1,43 @@
 .main-nav {
   position: relative;
+
+  @media (max-width: @mobile-width-only) {
+    z-index: 2;
+  }
+}
+
+.main-nav__toggle {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  background: transparent;
+  border: none;
+  z-index: 3;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    display: block;
+    width: 24px;
+    bottom: 0;
+    right: -3px;
+    height: 3px;
+    background: #000000;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.main-nav__list {
+  position: absolute;
+  right: 0;
+  width: 100%;
 }
